@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reserveStyleProjek.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id=header>
+        <div id=logo>
+            <img src="../images/Logo Ybike.png" alt="">
+        </div>
+
+        <div id=navbar>
+            <a href="homeProjek.html">
+                <div id=home>
+                    Home
+                </div>
+            </a>
+            <a href="../html/productProjek.html">
+                <div id=product>
+                    Products
+                </div>
+            </a>
+            <div id=gallery>
+                Gallery
+            </div>
+            <div id=reserve>
+                Reserve
+            </div>
+        </div>
+    </div>
+    <div id=content>
+        <form action="../html/homeProjek.html" method="GET">
+            <ul class="flex-outer">
+                <li>
+                    <label for="product">
+                        Product :
+                    </label>
+                    <input type="text" name="name_product" id="product" placeholder="Enter a product">
+                </li>
+                <li>
+                    <label for="quantity">
+                        Quantity :
+                    </label>
+                    <input type="number" name="name_quantity" id="quantity" placeholder="Enter a quantity">
+                </li>
+                <li>
+                    <label for="color">
+                        Color :
+                    </label>
+                    <input type="color" name="color" id="color">
+                </li>
+                <li>
+                    <label for="name">
+                        Name :
+                    </label>
+                    <input type="text" name="name_name" id="Name" placeholder="Enter your name">
+                </li>
+                <li>
+                    <label for="phone">
+                        Phone :
+                    </label>
+                    <input type="text" name="phone_number" id="phone_number" placeholder="Enter your phone number" maxlength="12">
+                </li>
+                <li>
+                    <label for="state">
+                        State :
+                    </label>
+                    <select name="state" id="state">
+                        <option value="indonesia">
+                            Indonesia
+                        </option>
+                        <option value="Singapore">
+                            Singapore
+                        </option>
+                        <option value="Japan">
+                            Japan
+                        </option>
+                    </select>
+                </li>
+                <li>
+                    <label for="address">
+                        Address :
+                    </label>
+                    <textarea rows="6" id="address" placeholder="Enter your address"></textarea>
+                </li>
+                <li>
+                    <label for="gender">
+                        Gender :
+                    </label>
+                    <ul class="flex-inner">
+                        <li>
+                            <input type="radio" name="gender" id="gender-male" value="male">Male
+                        </li>
+                        <li>
+                            <input type="radio" name="gender" id="gender-female" value="female"> Female
+                        </li>
+                    </li>
+                </li>
+            </ul>
+            <li>
+                <input type="checkbox" name="terms" id="terms"> Terms and Condition
+            </li>
+            <li class="button">
+              <button type="submit">
+                  Submit
+                </button>
+              <input id= "reset" type="reset" value="reset">
+            </li>
+          </ul>
+        </form>
+    </div>
+    <div id=footer>
+        <div id="copyright">
+            Copyright © 2021 By YBike
+        </div>
+        <div id="sosmed">
+            <a href="https://facebook.com">
+                <img src="../images/facebookLogo.png" alt="">
+            </a>
+            <a href="https://instagram.com">
+                <img src="../images/InstagramLogo.png" alt="">
+            </a>
+            <a href="https://twitter.com">
+                <img src="../images/TwitterLogo.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
